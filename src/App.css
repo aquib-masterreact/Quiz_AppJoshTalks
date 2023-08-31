@@ -1,0 +1,81 @@
+.input-email{
+    width: 20rem;
+    height: 2rem;
+    border-radius: 1.7rem;
+    outline: none;
+    border:none;
+    padding: 0.2rem;
+}
+.input-email:focus{
+    outline-style:dashed;
+}
+
+.submit-btn{
+    width:5rem;
+    height: 2rem;
+    border-radius: 2rem;
+    border: none;
+    background-color: rgb(18, 230, 18);
+    outline: none;
+}
+.details{
+    margin-top: 10rem;
+    
+    width: 50%;
+    height: 10rem;
+    align-items: center;
+}
+.questnNo{
+    background-color: aliceblue;border: none;
+
+}
+.btns{
+    display: flex;
+    gap: 1rem;
+    
+    
+}
+section{
+    padding: 1rem;
+}
+
+.questnNo{
+    width: 5rem;
+    height: 3rem;
+}
+.questnNo:hover{
+    background-color: orange;
+}
+.questnNo:focus{
+    background-color: blueviolet;
+}
+.optns{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 3rem;
+}
+.btn-opt{
+    width: 60%;
+    border: none;
+    height: 2.5rem;
+    border-radius: 2.5rem;
+
+}
+.btn-opt:hover{
+    background-color: green;
+}
+@media screen and (max-width:450px) {
+    .btns{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .details{
+        width:100%;
+        margin-top: 1rem;
+    }
+    .input-email{
+        width: 100%;
+    }
+}
