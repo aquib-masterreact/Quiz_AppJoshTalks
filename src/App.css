@@ -46,7 +46,7 @@ section{
 .questnNo:hover{
     background-color: orange;
 }
-.questnNo:focus{
+.questnNo:active{
     background-color: blueviolet;
 }
 .optns{
